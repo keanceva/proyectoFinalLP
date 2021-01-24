@@ -9,6 +9,8 @@
             $nombre = $row['nombre'];
             $telefono = $row['telefono'];
             $mascota = $row['mascota'];
+            $edad = $row['edad'];
+            $sexo = $sexo['sexo'];
             $descripcion = $row['descripcion'];
         }
     }
@@ -17,8 +19,10 @@
         $nombre = $_POST['nombre'];
         $telefono = $_POST['telefono'];
         $mascota = $_POST['mascota'];
+        $edad = $_POST['edad'];
+        $sexo = $_POST['sexo'];
         $descripcion = $_POST['descripcion'];
-        $query = "UPDATE formulario set nombre = '$nombre', telefono = '$telefono', mascota = '$mascota', descripcion = '$descripcion' WHERE id = $id";
+        $query = "UPDATE formulario set nombre = '$nombre', telefono = '$telefono', mascota = '$mascota', edad = '$edad', sexo = '$sexo',  descripcion = '$descripcion' WHERE id = $id";
         mysqli_query($conn,$query);
         $_SESSION['message'] = 'Se actualizó su dato.';
         $_SESSION['message_type'] = 'warning';
@@ -40,6 +44,12 @@
                     </div>
                     <div class="form-group">
                         <input type="text" name="mascota" class="form-control" value="<?php echo $mascota; ?>" placeholder="Actualizar mascota.">                    
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="edad" class="form-control" value="<?php echo $edad; ?>" placeholder="Actualizar edad.">                    
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="sexo" class="form-control" value="<?php echo $sexo; ?>" placeholder="Actualizar sexo.">                    
                     </div>
                     <div class="form-group">
                         <textarea type="text" name="descripcion" rows="2" class="form-control"  placeholder="Actualizar descripción."><?php echo $descripcion; ?></textarea>
