@@ -22,6 +22,19 @@
     text-decoration-color: white;
 }
 
+.card {
+    width: 30%;
+}
+
+.card-text {
+    text-decoration-color: #000;
+}
+
+.card.card-body {
+    width: 70%;
+    height: 80%;
+}
+
 body {
     color: #ccc;
 }
@@ -35,7 +48,8 @@ body {
     margin-bottom: 27px;
 }
 
-p {
+p.footer-info-text,
+p.infocorreo {
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
     color: white;

@@ -133,7 +133,7 @@
                                     <h3>Suscríbete</h3>
                                     <span class="animate-border border-black"></span>
                                 </div>
-                                <p><!-- Don’t miss to subscribe to our new feeds, kindly fill the form below. -->
+                                <p class="infocorreo"><!-- Don’t miss to subscribe to our new feeds, kindly fill the form below. -->
                                 Recibe las noticias para mantenerte informado.</p>
                                 <form action="#">
                                     <div class="form-row">
