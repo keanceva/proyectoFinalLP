@@ -21,6 +21,12 @@
                             <input type="text" name="mascota" class="form-control" placeholder="Nombre de la mascota" autofocus>
                         </div>
                         <div  class="form-group">
+                            <input type="text" name="edad" class="form-control" placeholder="Edad de la mascota" autofocus>
+                        </div>
+                        <div  class="form-group">
+                        <div  class="form-group">
+                            <input type="text" name="sexo" class="form-control" placeholder="Sexo de la mascota" autofocus>
+                        </div>
                             <textarea type="text" name="descripcion" class="form-control" placeholder="Descripción de la mascota" autofocus></textarea>
                         </div>
                         <input type="submit" class="btn btn-success btn-block" name="save_task" value="Save Task">

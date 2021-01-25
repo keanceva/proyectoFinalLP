@@ -13,6 +13,8 @@
                 <th>Hombre</th>
                 <th>Teléfono</th>
                 <th>Mascota</th>
+                <th>Edad</th>
+                <th>sexo</th>
                 <th>Descripción</th>
                 <th>Creado</th>
                 <th>Acciones</th>
@@ -28,6 +30,8 @@
                     <td><?php echo $row['telefono'] ?></td>
                     <td><?php echo $row['mascota'] ?></td>
                     <td><?php echo $row['descripcion'] ?></td>
+                    <td><?php echo $row['edad'] ?></td>
+                    <td><?php echo $row['sexo'] ?></td>
                     <td><?php echo $row['fecha'] ?></td>
                     <td>
                         <a href="edit.php?id=<?php echo $row['id'] ?>" class="btn btn-secondary">
