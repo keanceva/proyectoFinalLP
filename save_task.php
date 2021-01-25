@@ -5,9 +5,8 @@
         $telefono = $_POST['telefono'];
         $mascota = $_POST['mascota'];
         $descripcion = $_POST['descripcion'];
-        $edad = $_POST ['edad'];
         $sexo = $_POST ['sexo'];
-        $query = "INSERT INTO formulario(nombre, telefono, mascota, edad, sexo descripcion) VALUES ('$nombre','$telefono','$mascota', '$edad', '$sexo' '$descripcion')";
+        $query = "INSERT INTO formulario(nombre, telefono, mascota, sexo, descripcion) VALUES ('$nombre','$telefono','$mascota', '$sexo', '$descripcion')";
         $result = mysqli_query($conn,$query);
         if(!$result){
             die("Fallo");
