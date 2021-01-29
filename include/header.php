@@ -18,8 +18,26 @@
         <a href="index.php" class="navbar-brand">LOGO</a>
         <ul id="lista">
             <li class="elemento"><a href="index.php" class="links">Home</a></li>
-            <li class="elemento"><a href="formulario.php" class="links">Formulario</a></li>
-            <li class="elemento"><a href="mascota.php" class="links">Mascotas</a></li>
+
+            
+            <?php if(!isset($_SESSION['usuario']) ){ ?>
+
+                <li class="elemento"><a href="login.php" class="links">Ingresar</a></li>
+                <li class="elemento"><a href="signup.php" class="links">Registrarce</a></li>
+
+                <?php } ?>
+
+<?php if(isset($_SESSION['usuario'] ) ){
+ 
+    ?>
+                <li class="elemento"><a href="formulario.php" class="links">Formulario</a></li>
+                <li class="elemento"><a href="mascota.php" class="links">Mascotas</a></li>
+<li class="elemento"> <a href="#" class="links"><?= $_SESSION['usuario'] ?></a></li>
+<li class="elemento" ><a style="color: rgb(223, 101, 101) !important" href="logout.php" class="links">Salir</a></li>
+<?php } ?>      
+
+     
+           
         </ul>
     </div>
 </nav>

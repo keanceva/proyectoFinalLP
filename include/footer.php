@@ -17,33 +17,20 @@
                         </p>
                         <div class="footer-social-link">
                             <h3>Síguenos</h3>
-                            <ul>
-                                <li>
-                                    <a href="#">
+
+                                    <a href="#" style="padding: 1px">
                                         <i class="fa fa-facebook"></i>
+                                       
                                     </a>
-                                </li>
-                                <li>
-                                    <a href="#">
+                
+                                    <a href="#" style="padding: 1px">
                                         <i class="fa fa-twitter"></i>
                                     </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-google-plus"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa fa-linkedin"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
+                               
+                                    <a href="#" style="padding: 1px">
                                         <i class="fa fa-instagram"></i>
                                     </a>
-                                </li>
-                            </ul>
+         
                         </div>
                         <!-- End Social link -->
                     </div>
@@ -127,28 +114,7 @@
                             <!-- End Footer Widget -->
                         </div>
                         <!-- End col -->
-                        <div class="col-md-12 col-lg-6">
-                            <div class="footer-widget">
-                                <div class="section-heading">
-                                    <h3>Suscríbete</h3>
-                                    <span class="animate-border border-black"></span>
-                                </div>
-                                <p class="infocorreo"><!-- Don’t miss to subscribe to our new feeds, kindly fill the form below. -->
-                                Recibe las noticias para mantenerte informado.</p>
-                                <form action="#">
-                                    <div class="form-row">
-                                        <div class="col dk-footer-form">
-                                            <input type="email" class="form-control" placeholder="Email Address">
-                                            <button type="submit">
-                                                <i class="fa fa-send"></i>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </form>
-                                <!-- End form -->
-                            </div>
-                            <!-- End footer widget -->
-                        </div>
+              
                         <!-- End Col -->
                     </div>
                     <!-- End Row -->
@@ -169,20 +135,9 @@
                     <!-- End Col -->
                     <div class="col-md-6">
                         <div class="copyright-menu">
-                            <ul>
-                                <li>
-                                    <a href="#">Home</a>
-                                </li>
-                                <li>
-                                    <a href="#">Formuario</a>
-                                </li>
-                                <li>
-                                    <a href="#">Mascotas</a>
-                                </li>
-                                <li>
-                                    <a href="#">Contact</a>
-                                </li>
-                            </ul>
+                      
+                                    <a href="#"> 2020 Todos los derechos reservados.
+                               
                         </div>
                     </div>
                     <!-- End col -->

@@ -1,5 +1,7 @@
 <?php
     include("db.php");
+    $_SESSION['message'] =   "";
+    $_SESSION['message_type'] = ''; 
     if(isset($_GET['id'])){
         $id = $_GET['id'];
         $query = "DELETE FROM formulario WHERE id = $id";
