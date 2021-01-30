@@ -9,10 +9,14 @@
     margin: 0 10% 0 0;
 }
 
+.elemento>a:hover {
+    text-decoration: none;
+}
+
 #lista {
     margin: 0;
     padding: 0;
-    width: 45%;
+    width: 80%;
     text-align: center;
 }
 
@@ -51,8 +55,7 @@ body {
     margin-bottom: 27px;
 }
 
-p.footer-info-text,
-p.infocorreo {
+p {
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
     color: white;
@@ -185,6 +188,7 @@ p.infocorreo {
     top: -122px;
     background: #202020;
     padding: 40px;
+    border-radius: 10px;
     z-index: 2;
 }
 
@@ -411,6 +415,7 @@ p.infocorreo {
 .copyright {
     padding: 28px 0;
     margin-top: 55px;
+    padding-bottom: -200px;
     background-color: #202020;
 }
 
@@ -462,4 +467,13 @@ p.infocorreo {
     cursor: pointer;
     background: #FA6742;
     border-color: #FA6742;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    width: 50px;
+    text-align: center;
 }
