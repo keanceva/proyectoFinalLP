@@ -1,8 +1,8 @@
 <?php include("db.php") ?>
 <?php include("include/header.php") ?>
 <div class="container p-4">
-    <div class = "card card-body" >
-        <h1 id='inicio'> Bienvenidos a Petsave</h1>
+    <div class = "card card-body" style= font-family:Verdana, Geneva, Tahoma, sans-serif ;>
+        <h1 id='inicio'> Bienvenidos a Petsave </h1>
         <h2 > Adopta tu mascota </h2>
     </div>  
         <div class="row"  style="padding-top: 60px " >
@@ -13,7 +13,7 @@
                 <img  class="img-fluid" src="https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2017/11/30152236/Perros-vs-Gatos2.jpg">
             </div>
             <div class="col-md-8">
-            <div class = "card card-body" >
+            <div class = "card card-body" style= font-family:Cambria ; >
                 <h1 style="padding-top: 30px"> ¿QUIENES SOMOS? </h1>
                 <h4 style="padding-top: 20px"> Somos una organizacion en la cual nos encargamos
                     de darle hogar y cuidado a mascotas abandonadas

@@ -2,7 +2,7 @@
     session_start();
     $servidor= "localhost";
     $nombreusuario= "root";
-    $password = "19081995";
+    $password = "";
 
     $base= "proyectofinal";
 
@@ -44,7 +44,7 @@
     $conn = mysqli_connect(
         'localhost',
         'root',
-        '19081995',
+        '',
         'proyectofinal'
 
     );
