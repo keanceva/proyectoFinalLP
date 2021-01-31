@@ -12,7 +12,7 @@
                 <div class="col-md-12 col-lg-4">
                     <div class="dk-footer-box-info">
                         <a href="index.html" class="footer-logo">
-                            <img src="" alt="footer_logo" class="img-fluid">
+                            <img src="./img/lp.png" alt="footer_logo" class="img-fluid">
                         </a>
                         <p class="footer-info-text">
                            Página de ONG para administrar animales en adopción.
@@ -135,7 +135,7 @@
                                     <h3>Suscríbete</h3>
                                     <span class="animate-border border-black"></span>
                                 </div>
-                                <p><!-- Don’t miss to subscribe to our new feeds, kindly fill the form below. -->
+                                <p id="textofooter"><!-- Don’t miss to subscribe to our new feeds, kindly fill the form below. -->
                                 Mantenerte informado constantemente sobre nuestras actividades.</p>
                                 <form action="#">
                                     <div class="form-row">

@@ -2,7 +2,7 @@
 <?php include("include/header.php") ?>
 <div class="container p-4">
     <div class = "card card-body" style= font-family:Verdana, Geneva, Tahoma, sans-serif ;>
-        <h1 id='inicio'> Bienvenidos a Petsave </h1>
+        <h1 id='inicio'> Bienvenidos a Pet Save </h1>
         <h2 > Adopta tu mascota </h2>
     </div>  
         <div class="row"  style="padding-top: 60px " >
