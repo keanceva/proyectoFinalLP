@@ -13,8 +13,13 @@
         if (move_uploaded_file($_FILES['image']['tmp_name'], $target)) {
             $msg = "Image uploaded successfully";
         }
+        if ($nombre=="" or $telefono=="" or $mascota=="" or $descripcion=="" or $sexo=="" or $fecha==""){
+            $_SESSION['message'] = 'Llene los datos';
+            $_SESSION['message_type'] = 'warning'; 
+            header("Location: formulario.php");
+        }  else{
 
-        if ($resultado = $conn->query("SELECT * FROM formulario WHERE nombre ='".$nombre."' and mascota ='".$mascota."'")) {
+            if ($resultado = $conn->query("SELECT * FROM formulario WHERE nombre ='".$nombre."' and mascota ='".$mascota."'")) {
                         if ($resultado->num_rows > 0 ) {
                             $_SESSION['message'] = 'Este dueño y mascota ya estan registrados';
                             $_SESSION['message_type'] = 'warning'; 
@@ -30,10 +35,6 @@
                             header("Location: formulario.php");
                         }             
             }
-
-
-
-
-       
-    }
+        }
+}
 ?>
