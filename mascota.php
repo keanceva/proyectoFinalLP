@@ -6,7 +6,7 @@
                 <?= $_SESSION['message'] ?>
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
-            <?php } //session_unset ?>
+            <?php } unset($_SESSION['message']) ?>
     <table class="table table-bordered" style= "background: honeydew;">
         <thead style="background-color: #343a40!important;color: white;text-align: center">
             <tr>

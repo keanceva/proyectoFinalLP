@@ -10,7 +10,7 @@
                 <?= $_SESSION['message'] ?>
                
                 </div>
-            <?php } //session_unset ?>
+            <?php } unset($_SESSION['message'])?>
             <h2>Registrarce o  <a href= "login.php"> Ingresar</a> </h2> 
         <div class="card card-body">
                     <form action="save_users.php" method="POST">

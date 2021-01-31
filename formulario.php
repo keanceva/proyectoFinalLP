@@ -12,7 +12,7 @@
                 <?= $_SESSION['message'] ?>
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
-            <?php }} //session_unset ?>
+            <?php }} unset($_SESSION['message']) ?>
             <h2>Registrar mascota </h2>
                 <div class="card card-body">
                     
