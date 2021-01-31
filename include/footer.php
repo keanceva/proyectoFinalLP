@@ -4,42 +4,55 @@
 
 <script src="./include/script.js"></script>
 </body>
-
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+
 <footer id="dk-footer" class="dk-footer">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-lg-4">
                     <div class="dk-footer-box-info">
                         <a href="index.html" class="footer-logo">
-                            <img src="https://cdn.pixabay.com/photo/2016/11/07/13/04/yoga-1805784_960_720.png" alt="footer_logo" class="img-fluid">
+                            <img src="" alt="footer_logo" class="img-fluid">
                         </a>
                         <p class="footer-info-text">
-                            Somos una ONG que ayuda a los animales abandonados, brindando alimento, cuidados y un lugar para descansar. Los mantenemos en nuestro cuiado hasta que una familia lo adopte.
+                           Página de ONG para administrar animales en adopción.
                         </p>
                         <div class="footer-social-link">
                             <h3>Síguenos</h3>
-
-                                    <a href="#" style="padding: 1px">
+                            <ul id="listasocial">
+                                <li id="listasocial">
+                                    <a href="#">
                                         <i class="fa fa-facebook"></i>
-                                       
                                     </a>
-                
-                                    <a href="#" style="padding: 1px">
+                                </li>
+                                <li id="listasocial">
+                                    <a href="#">
                                         <i class="fa fa-twitter"></i>
                                     </a>
-                               
-                                    <a href="#" style="padding: 1px">
+                                </li>
+                                <li id="listasocial">
+                                    <a href="#">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                </li>
+                                <li id="listasocial">
+                                    <a href="#">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li id="listasocial">
+                                    <a href="#">
                                         <i class="fa fa-instagram"></i>
                                     </a>
-         
+                                </li>
+                            </ul>
                         </div>
                         <!-- End Social link -->
                     </div>
                     <!-- End Footer info -->
                     <div class="footer-awarad">
-                        <img src="images/icon/best.png" alt="">
-                        <p>Best Design Company 2019</p>
+                        <img src="" alt="">
+                        <p>ONG 2021</p>
                     </div>
                 </div>
                 <!-- End Col -->
@@ -53,7 +66,7 @@
                                 <!-- End contact Icon -->
                                 <div class="contact-info">
                                     <h3>Guayaquil</h3>
-                                    <p>Puente La Prosperina</p>
+                                    <p>Bosque Protector</p>
                                 </div>
                                 <!-- End Contact Info -->
                             </div>
@@ -81,7 +94,7 @@
                         <div class="col-md-12 col-lg-6">
                             <div class="footer-widget footer-left-widget">
                                 <div class="section-heading">
-                                    <h3>Recursos</h3>
+                                    <h3>Link de interés</h3>
                                     <span class="animate-border border-black"></span>
                                 </div>
                                 <ul>
@@ -116,7 +129,28 @@
                             <!-- End Footer Widget -->
                         </div>
                         <!-- End col -->
-              
+                        <div class="col-md-12 col-lg-6">
+                            <div class="footer-widget">
+                                <div class="section-heading">
+                                    <h3>Suscríbete</h3>
+                                    <span class="animate-border border-black"></span>
+                                </div>
+                                <p><!-- Don’t miss to subscribe to our new feeds, kindly fill the form below. -->
+                                Mantenerte informado constantemente sobre nuestras actividades.</p>
+                                <form action="#">
+                                    <div class="form-row">
+                                        <div class="col dk-footer-form">
+                                            <input type="email" class="form-control" placeholder="Email Address">
+                                            <button type="submit">
+                                                <i class="fa fa-send"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                                <!-- End form -->
+                            </div>
+                            <!-- End footer widget -->
+                        </div>
                         <!-- End Col -->
                     </div>
                     <!-- End Row -->
@@ -137,9 +171,20 @@
                     <!-- End Col -->
                     <div class="col-md-6">
                         <div class="copyright-menu">
-                      
-                                    <a href="#"> 2020 Todos los derechos reservados.
-                               
+                            <ul>
+                                <li>
+                                    <a href="#">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#">Terms</a>
+                                </li>
+                                <li>
+                                    <a href="#">Privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contact</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                     <!-- End col -->
@@ -157,5 +202,6 @@
         </div>
         <!-- End Back to top -->
 </footer>
+
 
 </html>
