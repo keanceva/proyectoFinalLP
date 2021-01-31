@@ -11,11 +11,11 @@
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
             <?php } //session_unset ?>
-    <table class="table table-bordered">
+    <table class="table table-bordered" style= "background: honeydew;">
         <thead style="background-color: #343a40!important;color: white;text-align: center">
             <tr>
                 <th>Imagen</th>
-                <th>Hombre</th>
+                <th>Nombre</th>
                 <th>Teléfono</th>
                 <th>Mascota</th>
                 <th>sexo</th>

@@ -13,7 +13,7 @@
                
                 </div>
             <?php }} //session_unset ?>
-            <h2>Registrar mascota</h2>
+            <h2>Registrar mascota </h2>
                 <div class="card card-body">
                     
                     <form action="save_task.php" method="POST" enctype="multipart/form-data">

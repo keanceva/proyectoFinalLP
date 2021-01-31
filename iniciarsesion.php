@@ -12,7 +12,7 @@
                             $_SESSION['usuario'] = $email; 
                             header('Location: index.php');              
                         }else{
-                            //$_SESSION['usuario'] = '404'; 
+                        //    $_SESSION['usuario'] = '404'; 
                             $_SESSION['message'] =   "Usuario incorrecto";
                             $_SESSION['message_type'] = 'warning'; 
                             header('Location: login.php');   

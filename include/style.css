@@ -32,7 +32,7 @@
 }
 
 body {
-    color: #ccc;
+    scale:"background: url('images/fondo.jfif');"
 }
 
 .container.p-12 {
@@ -466,3 +466,16 @@ ul{
     width: 50px;
     text-align: center;
 }
+
+h1 #inicio {
+    font-size: 62.5%;
+    text-align:center;
+
+}
+
+
+
+
+
+
+
