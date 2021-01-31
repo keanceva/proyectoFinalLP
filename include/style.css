@@ -466,7 +466,6 @@ p {
 h1#inicio {
     font-size: 300%;
     text-align: center;
-    
 }
 
 h2 {
@@ -488,6 +487,11 @@ h2 {
 .container.p-12 {
     margin-top: 10%;
     margin-bottom: 10%;
+}
+
+.card-columns {
+    margin-top: 15%;
+    margin-bottom: 15%;
 }
 
 .footer-info-text,
