@@ -1,10 +1,6 @@
 <?php include("db.php") ?>
 <?php include("include/header.php") ?>
 <div class="col-md-12" style="padding-bottom: 200px;padding-top: 100px">
-  <?php
-  $_SESSION['message'] =   "";
-  $_SESSION['message_type'] = '';  
-  ?>
 <?php if(isset($_SESSION['message'])){?>
                 <div class="alert alert-<?= $_SESSION['message_type']; ?> alert-dismissible fade show" role="alert">
                 <?= $_SESSION['message'] ?>

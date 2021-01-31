@@ -17,7 +17,7 @@
                 </div>
             <?php  }
         } ?>
-         <h2>Ingresar o <a href= "signup.php"> Registrarce</a> </h2> 
+         <h2>Ingresar o <a href= "signup.php"> Registrar</a> </h2> 
         <div class="card card-body">
            
                     <form action="iniciarsesion.php" method="POST">

@@ -23,7 +23,7 @@
             <?php if(!isset($_SESSION['usuario']) ){ ?>
 
                 <li class="elemento"><a href="login.php" class="links">Ingresar</a></li>
-                <li class="elemento"><a href="signup.php" class="links">Registrarce</a></li>
+                <li class="elemento"><a href="signup.php" class="links">Registrar</a></li>
 
                 <?php } ?>
 

@@ -2,7 +2,7 @@
     session_start();
     $servidor= "localhost";
     $nombreusuario= "root";
-    $password = "";
+    $password = "19081995";
 
     $base= "proyectofinal";
 
