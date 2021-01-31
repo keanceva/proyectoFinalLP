@@ -16,7 +16,7 @@
                 
                 </div>
             <?php  }
-        } ?>
+        }unset($_SESSION['message']) ?>
          <h2>Ingresar o <a href= "signup.php"> Registrar</a> </h2> 
         <div class="card card-body">
            
