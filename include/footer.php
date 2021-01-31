@@ -49,11 +49,11 @@
                         </div>
                         <!-- End Social link -->
                     </div>
-                    <!-- End Footer info -->
+                    <!-- End Footer info 
                     <div class="footer-awarad">
                         <img src="" alt="">
                         <p>ONG 2021</p>
-                    </div>
+                    </div>-->
                 </div>
                 <!-- End Col -->
                 <div class="col-md-12 col-lg-8">

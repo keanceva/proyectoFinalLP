@@ -1,7 +1,5 @@
 <?php
     include("db.php");
-    $_SESSION['message'] =   "";
-$_SESSION['message_type'] = ''; 
     if(isset($_POST['save_task'])){
         $nombre = $_POST['nombre'];
         $telefono = $_POST['telefono'];
@@ -27,8 +25,8 @@ $_SESSION['message_type'] = '';
                             if(!$result){
                                 die("Fallo");
                             }
-                            $_SESSION['message'] = 'Se envió satisfactoriamente tu formulario.';
-                            $_SESSION['message_type'] = 'success';  
+                            $_SESSION['message'] = 'Se envió satisfactoriamente tu formulario';
+                            $_SESSION['message_type'] = 'warning'; 
                             header("Location: formulario.php");
                         }             
             }

@@ -19,9 +19,8 @@
                             if(!$result){
                                 die("Fallo");
                             }
-                            //$_SESSION['usuario'] = $email; 
-                            //$_SESSION['message'] = 'Se envió satisfactoriamente tu formulario.';
-                            //$_SESSION['message_type'] = 'success';  
+                            $_SESSION['usuario'] = $email; 
+                            $_SESSION['message_type'] = 'success';  
                             header("Location: index.php");
                         }             
             }

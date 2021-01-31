@@ -36,12 +36,9 @@ div div img {
     object-fit: cover;
 }
 
-.card {
-    height: 400px;
-}
-
 body {
-    color: #ccc
+    scale: "background: url('images/fondo.jfif');";
+    color: #ccc;
 }
 
 .footer-widget p {
@@ -459,21 +456,30 @@ p {
     border-color: #FA6742;
 }
 
-
-/*
-h1 {
-    text-align: center;
-}
-
-ul {
-    width: 50px;
-    text-align: center;
-}
-*/
-
 .card-group {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
     grid-auto-rows: 100px;
+}
+
+h1#inicio {
+    font-size: 300%;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.col-md-8 {
+    background-color: white;
+}
+
+.copyright {
+    margin-top: 0px;
+}
+
+.conatiner.p-4 {
+    margin-bottom: 20%;
 }
