@@ -40,8 +40,8 @@
                     <td><?php echo $row['nombre'] ?></td>
                     <td><?php echo $row['telefono'] ?></td>
                     <td><?php echo $row['mascota'] ?></td>
-                    <td><?php echo $row['descripcion'] ?></td>
                     <td><?php echo $row['sexo'] ?></td>
+                    <td><?php echo $row['descripcion'] ?></td>
                     <td><?php echo $row['fecha'] ?></td>
                     <td>
 

@@ -28,6 +28,9 @@
 
         $image = $_FILES['image']['name'];
         $target = "images/".basename($image);
+        if($target=="images/"){
+            $target=$img;
+        }
 
         if (move_uploaded_file($_FILES['image']['tmp_name'], $target)) {
             $msg = "Image uploaded successfully";
