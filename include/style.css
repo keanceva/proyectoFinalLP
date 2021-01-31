@@ -483,3 +483,20 @@ h2 {
 .conatiner.p-4 {
     margin-bottom: 20%;
 }
+
+.container.p-12 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.footer-info-text,
+#textofooter {
+    color: white;
+}
+
+div.container div.row div.col-md-12.col-lg-4 div.dk-footer-box-info a.footer-logo img.img-fluid {
+    width: 75%;
+    height: 75%;
+    align-self: center;
+    margin-left: 10px;
+}
