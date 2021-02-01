@@ -2,7 +2,7 @@
     session_start();
     $servidor= "localhost";
     $nombreusuario= "root";
-    $password = "19081995";
+    $password = "";
 
     $base= "proyectofinal";
 
@@ -39,12 +39,24 @@
     if($conexion->query($tabla2)===true){
         echo "tabla2 creada correctamente...";
     } 
+    $email= 'admin@espol.edu.ec';
+    $admin="INSERT INTO users(email, password) VALUES ('admin@espol.edu.ec','123')";
 
+    $resultado = $conexion->query("SELECT email FROM users WHERE email ='".$email."'");
+    
+    if($resultado->num_rows <= 0 ){
+        if($conexion->query($admin)===true){
+            echo "admin creado correctamente...";
+        } 
+
+    }
+    
+    
 
     $conn = mysqli_connect(
         'localhost',
         'root',
-        '19081995',
+        '',
         'proyectofinal'
 
     );

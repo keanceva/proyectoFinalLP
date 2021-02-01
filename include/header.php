@@ -31,8 +31,15 @@
 <?php if(isset($_SESSION['usuario'] ) ){
  
     ?>
-                <li class="elemento"><a href="formulario.php" class="links">Formulario</a></li>
-                <li class="elemento"><a href="mascota.php" class="links">Mascotas</a></li>
+            <li class="elemento"><a href="formulario.php" class="links">Formulario</a></li>
+               
+        <?php if($_SESSION['usuario']=="admin@espol.edu.ec"){ ?>
+            <li class="elemento"><a href="admin.php" class="links">Mascotas</a></li>
+        
+        
+        <?php }else{?>
+            <li class="elemento"><a href="mascota.php" class="links">Mascotas</a></li>
+        <?php } ?>
 <li class="elemento"> <a href="#" class="links"><?= $_SESSION['usuario'] ?></a></li>
 <li class="elemento" ><a style="color: rgb(223, 101, 101) !important" href="logout.php" class="links">Salir</a></li>
 <?php } ?>      
