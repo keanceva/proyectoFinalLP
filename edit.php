@@ -18,6 +18,7 @@
             
         }
     }
+    
     if(isset($_POST['update'])){
         $id = $_GET['id'];
         $nombre = $_POST['nombre'];
